@@ -33,9 +33,9 @@
 					<!-- One -->
 						<section class="wrapper style4 special container 75%">
 							<div>
-									<h3 style="color:black; font-size: 1.90em; font-family:verdana; "> <b>FORMULAIRE D'INSCRIPTION POUR LA FORMATION GRATUITE EN FREELANCE</b> </h3>
+									<h3 style="color:black; font-family:verdana; "> <b>FORMULAIRE D'INSCRIPTION POUR LA FORMATION GRATUITE EN FREELANCE</b> </h3>
 									<img src="images/fr.jpg" width="100%" >
-									<p>Merci de répondre à toutes les questions suivante.</p>
+									<p>Bien vouloir remplir cet Formulaire pour participer à la formation gratuite.</p>
 									<br/>
 							</div>
 							<!-- Content -->
@@ -43,28 +43,28 @@
 
 									<form class="register-form" method="post" action="forms001.php">
 										<div class="row 50%">
-											<label for="bday">Nom</label>
+											<label for="bday"><b>Nom</b></label>
 											<div class="12u">
 												<input type="text" name="Q001" placeholder="Nom" />
 											</div>
 										</div>
 
 										<div class="row 50%">
-											<label for="bday">Prénoms</label>
+											<label for="bday"><b>Prénoms</b></label>
 											<div class="12u">
 												<input type="text" name="Q002" placeholder="Prénoms" />
 											</div>
 										</div>
 
 										<div class="row 50%">
-											<label for="bday">Date de naissance</label>
+											<label for="bday"><b>Date de naissance</b></label>
 											<div class="12u">
 												<input style="text-align: left;" type="date" id="start" name="Q003" value="" max="2019-12-31" >
 											</div>
 										</div>
 										
 										<div class="row 50%">
-											<label for="bday">Sexe</label>
+											<label for="bday"><b>Sexe</b></label>
 											<div class="12u">
 												<input name="Q004" placeholder="(Masculin ou Feminin)" type="text" list="Suggestions"/>
 													<datalist id="Suggestions">
@@ -76,7 +76,7 @@
 										</div>
 
 										<div class="row 50%">
-											<label for="bday">Commune de résidance</label>
+											<label for="bday"><b>Commune de résidance</b></label>
 											<div class="12u">
 												<input name="Q005" placeholder="Commune" type="text" list="commsug"/>
 													<datalist id="commsug">
@@ -164,7 +164,7 @@
 
 										<div class="row 50%">
 											<div class="6u 12u(mobile)">
-												<label for="bday">Secteur d'activité</label>
+												<label for="bday"><b>Secteur d'activité</b></label>
 												<input name="Q006" placeholder="(choisir le Secteur d'activité ou choisir Autre )" type="text" list="worksug" value=""/>
 													<datalist id="worksug">
 														<option>Numérique ou Digital</option>
@@ -176,26 +176,26 @@
 													</datalist>
 											</div>
 											<div class="6u 12u(mobile)">
-												<label for="bday">si autre, précisez</label>
+												<label for="bday"><b>si autre, précisez</b></label>
 												<input type="text" name="Q006A" placeholder="Autre (Secteur d'activité)" value="NA" />
 											</div>
 										</div>
 
 										<div class="row 50%">
-											<label for="bday">Profession</label>
+											<label for="bday"><b>Profession</b></label>
 											<div class="12u">
 												<input type="text" name="Q007" placeholder="Profession" />
 											</div>
 										</div>
 
 										<div class="row 50%">
-											<label for="bday">Numéro Whatsapp</label>
+											<label for="bday"><b>Numéro Whatsapp</b></label>
 											<div class="12u">
 												<input type="text" name="Q008" placeholder="Numéro de Téléphone" />
 											</div>
 										</div>
 										<div class="row 50%">
-											<label for="bday">Adress E-mail</label>
+											<label for="bday"><b>Adress E-mail</b></label>
 											<div class="12u">
 												<input type="Email" name="Q009" placeholder="Email" />
 											</div>
