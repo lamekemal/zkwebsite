@@ -5,10 +5,19 @@
 		<title>Formulaire de renseignement</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="subject" content="Formulaire de freelance Bénin">
+		<meta name="copyright" content="Zk Consulting">
+		<meta name="owner" content="Zhoul Karimou">
+		<meta property="og:site_name" content="zkconsulting.bj">
+		<meta property="og:title" content="Zk Consulting">
+		<meta property="og:description" content="Structure béninoise spécialisée dans la collecte et l'analyse des données. Production d'application JS & Android">
+		<meta property="og:type" content="website">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<meta content="Zk Consulting; enquête au bénin; creation de site web bénin; création de logiciels bénin; statistique bénin; argent sur internet bénin" name="keywords">
+		<meta content="Zk Consulting est une structure béninoise spécialisé dans la collecte et l'analyse de données." name="description">
+		<meta name="theme-color" content="#ffffff">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" />style="background-image: url('images/banner.jpg;')"<![endif]-->
+
 	</head>
 	<body class="contact" >
 		<div id="page-wrapper">
@@ -35,7 +44,7 @@
 							<div>
 									<h3 style="color:black; font-family:verdana; "> <b>FORMULAIRE D'INSCRIPTION POUR LA FORMATION GRATUITE EN FREELANCE</b> </h3>
 									<img src="images/fr.jpg" width="100%" >
-									<p>Bien vouloir remplir cet Formulaire pour participer à la formation gratuite.</p>
+									<p>Remplissez le formulaire pour participer à la prochaine réunion. Entrée libre et gratuite mais place très limitées. Garantissez votre place maintenant.</p>
 									<br/>
 							</div>
 							<!-- Content -->
@@ -66,7 +75,7 @@
 										<div class="row 50%">
 											<label for="bday"><b>Sexe</b></label>
 											<div class="12u">
-												<input name="Q004" placeholder="(Masculin ou Feminin)" type="text" list="Suggestions"/>
+												<input name="Q004" placeholder="(Masculin ou Féminin)" type="text" list="Suggestions"/>
 													<datalist id="Suggestions">
 														<option>Masculin</option>
 														<option>Féminin</option>
@@ -76,7 +85,7 @@
 										</div>
 
 										<div class="row 50%">
-											<label for="bday"><b>Commune de résidance</b></label>
+											<label for="bday"><b>Commune de résidence</b></label>
 											<div class="12u">
 												<input name="Q005" placeholder="Commune" type="text" list="commsug"/>
 													<datalist id="commsug">
@@ -163,9 +172,20 @@
 										</div>
 
 										<div class="row 50%">
-											<div class="6u 12u(mobile)">
+										<label for="bday"><b>Statut Professionnel</b></label>
+										<div class="12u">
+												<input name="Q006" placeholder="Employé ou sans emplois" type="text" list="worksurg" value=""/>
+													<datalist id="worksurg">
+														<option> Employé </option>
+														<option> Sans Emplois</option>
+													</datalist>
+											</div>
+										</div>
+
+										<!--<div class="row 100%">
+											div class="6u 12u(mobile)">
 												<label for="bday"><b>Secteur d'activité</b></label>
-												<input name="Q006" placeholder="(choisir le Secteur d'activité ou choisir Autre )" type="text" list="worksug" value=""/>
+										 		<input name="Q006A" placeholder="(choisir le Secteur d'activité ou choisir Autre )" type="text" list="worksug" value=""/>
 													<datalist id="worksug">
 														<option>Numérique ou Digital</option>
 														<option>Santé</option>
@@ -174,12 +194,8 @@
 														<option>Entrepreneuriat</option>
 														<option>Autre</option>
 													</datalist>
-											</div>
-											<div class="6u 12u(mobile)">
-												<label for="bday"><b>si autre, précisez</b></label>
-												<input type="text" name="Q006A" placeholder="Autre (Secteur d'activité)" value="NA" />
-											</div>
-										</div>
+											</div></div
+										</div>-->
 
 										<div class="row 50%">
 											<label for="bday"><b>Profession</b></label>
@@ -195,9 +211,9 @@
 											</div>
 										</div>
 										<div class="row 50%">
-											<label for="bday"><b>Adress E-mail</b></label>
+											<label for="bday"><b>Adresse e-mail</b></label>
 											<div class="12u">
-												<input type="Email" name="Q009" placeholder="Email" />
+												<input type="Email" name="Q009" placeholder="E-mail" />
 											</div>
 										</div>
 

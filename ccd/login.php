@@ -81,7 +81,7 @@
       <input type="email" placeholder="Email " name="email"/>
       <input type="password" placeholder="Mot de passe" name="password"/>
       <button type="submit" name="login_user">Se Connecter</button>
-      <p class="message">S'inscrire <a href="#">ici!</a></p>
+      <h3 class="message">S'inscrire <a href="#">ici!</a></h3>
     </form> 
 
   </div>

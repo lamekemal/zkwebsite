@@ -47,19 +47,19 @@
 				<div id="three-column">
 					<div class="boxA">
 						<div class="ebox">
-							<p style="font-size:90px; margin-bottom: 0px;">0 <i class="fas fa-dollar-sign"></i></p>
+							<p style="font-size:90px; margin-bottom: 0px;">0  CFA</p>
 							<p style="margin-bottom: 0px;">portefeuille ZK consulting.</p>
 						</div>
 					</div>
 					<div class="boxB">
 						<div class="ebox">
-							<p style="font-size:90px; margin-bottom: 0px;">0 <i class="fas fa-briefcase"></i></p>
+							<p style="font-size:90px; margin-bottom: 0px;">0  CFA</p>
 							<p style="margin-bottom: 0px;">Enquete(s) disponible.</p>
 						</div>
 					</div>
 					<div class="boxC">
 						<div class="ebox">
-							<p style="font-size:90px; margin-bottom: 0px;">0 <i class="fas fa-briefcase"></i></p>
+							<p style="font-size:90px; margin-bottom: 0px;">0  CFA</p>
 							<p style="margin-bottom: 0px;">Enquete(s) réalisée(s).</p>
 						</div>
 					</div>
